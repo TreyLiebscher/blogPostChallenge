@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Z7Ynf9M5Omtm5+U/alQFg0Q88LB98xihOMtYjFKEk/Ll8/3dQi41BsstNA5uOAx0KJIff9RiEkBFopRqYze5+geCvwk4Mc10xF93+XDTM8SSQxV+BZSM7yTqB98WU0kUJ+5IOXaWJ+/YLOaYRvaVjUNeXYUes8/wpGQatEF7AtjKvanEIgYYpLpfk/3aVu5ziBallaeRwM663Dta3+28E3K70YtJb4eC0dvt1pFlYdqFuhTFQe0ow0BRehca8KU1fP2jqGTtyilMJfKA1hZGzmTx/gRDPxKQc38njbjl/0PrAkjPzhg7unuyTbf4dtkkK4FdsuMox+uIqlenrZXghyIdr/jjPhpewWVcLlEGCMSwfsTzLevrPOdfPZxIvfGbSCckCNZwaHazuyadbERIEYaQAk6/PkE4e5lr0W9UC49K4Z9dUtkAvM5p86K4uRynnh84wnKoWH4WNRJLgkbiy4BTGLTHfiR1C+KixuE8Ff+29eBhIXXGEDUGFGAPUPCQ3mfNvw7DkzSyh2SL/EOHBj6SI7tfYH03QyhjcPuuZsQJzCXc9f4oxTtCDrAhBfmldVThvNybEEEKSpS9iH/VZv4PO49hshS384FblDKOIkY2npCNPVr9UpsNOH0KMt/zHCFHg1Nod0BZhnUxvJf8xkZ+p/V9r89lMX37YrKcDUs=
+  app: glacial-earth-79839
+  on:
+    repo: TreyLiebscher/blogPostChallenge
